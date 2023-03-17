@@ -7,7 +7,7 @@ import os
 import openai
 
 
-openai.api_key = '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'
+openai.api_key = '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'
 root_path = os.getcwd()
 
 

@@ -7,7 +7,7 @@ import os
 import openai
 
 
-openai.api_key = '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'
+openai.api_key = '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'
 root_path = os.getcwd()
 
 datafile_path = f"{root_path}/openai_handle/output/fine_food_reviews_with_embeddings_1k.csv"

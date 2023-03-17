@@ -4,3 +4,4 @@
 
 - HPCG backend: Django + Django rest framework
 - Openai handle: OpenAI handler: training process
+- HPCG frontend: React + Vite
