@@ -6,8 +6,10 @@ import numpy as np
 import os
 import openai
 
+from hpcg_backend.settings import OPENAI_API_KEY, OPENAI_ORGANIZATION
 
-openai.api_key = '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'
+openai.organization = OPENAI_ORGANIZATION
+openai.api_key = OPENAI_API_KEY
 root_path = os.getcwd()
 
 
